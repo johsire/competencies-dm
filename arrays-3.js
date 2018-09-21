@@ -11,8 +11,9 @@
   var sunsetColors = ["brown", "purple", "pink", "red", "orange", "yellow"]
   
   //Code here
-  function sunset(array) {
-    return array;
+  function sunset() {
+    sunsetColors.splice(0, 1, "blue");
+    return sunsetColors;
   };
   sunset(sunsetColors);
 
@@ -29,6 +30,7 @@
       return array;
   };
   sunrise(sunriseColors);
+
 
 
 //////////////////PROBLEM 3////////////////////
